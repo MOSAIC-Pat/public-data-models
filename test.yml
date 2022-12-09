@@ -1,0 +1,15 @@
+---
+
+version: 2
+
+models:
+  - name: vial_clientes_b
+    description: Tabla de catalogo de clientes de fuente VIAL
+
+    columns:
+      - name: cliente_id
+        description: identificador unico de cliente
+        tests:
+          - unique
+          - not_null
+  

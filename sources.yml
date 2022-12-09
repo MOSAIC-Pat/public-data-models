@@ -1,0 +1,17 @@
+---
+
+version: 2
+
+sources:
+  - name: slam
+    tables:
+      - name: trafico
+        description: tabla de trafico slam con referencia en remisiones y partidas (trafico id)
+      - name: clientes
+        description: tabla de clientes relacionada a SLAM
+      - name: tblbod
+        description: tabla de mercancia en bodega
+      - name: tblfactgen
+        description: descripcion de facturas relacionadas a trafico
+      - name: cove_fac
+        description: tabla de doda / cove trafico
